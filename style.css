@@ -17,8 +17,8 @@ img {
     display: flex;
     flex-direction: column;
     max-width: 28rem;
-    margin: 30px auto;
-    padding: 0 20px;   
+    margin: 0 auto;
+    padding: 20px;  
 }
 
 .product-card__text {
