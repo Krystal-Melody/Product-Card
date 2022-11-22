@@ -23,7 +23,7 @@ img {
 
 .product-card__text {
     background-color: hsl(0, 0%, 100%);
-    padding: 1.4em;
+    padding: 1.6em;
     border-bottom-left-radius: .8em;
     border-bottom-right-radius: .8em;
 }
@@ -91,7 +91,10 @@ p {
 }
 
 .btn {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .9em;
     background-color: #3D8168;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
@@ -103,6 +106,18 @@ p {
     text-decoration: none;
     width: 100%;
     font-size: .8rem;
+    border: 0;
+}
+
+svg {
+    background-image: url(images/icon-cart.svg);
+}
+    
+
+
+.btn:hover,
+.btn:focus {
+    background-color: #1A4131;
 }
 
 
