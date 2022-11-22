@@ -1,2 +1,2 @@
 # Product-Card
-Frontend Mento Challenge
+Frontend Mentor Challenge
